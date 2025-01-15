@@ -7,5 +7,3 @@
 - USDT 众筹
 - 自动退款机制
 - 目标达成后提现功能
-# Fund-USTD
-# Fund-USTD
