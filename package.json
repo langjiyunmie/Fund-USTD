@@ -1,0 +1,20 @@
+{
+  "name": "fund-contract",
+  "version": "1.0.0",
+  "description": "A USDT-based crowdfunding smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.19.0"
+  }
+}
